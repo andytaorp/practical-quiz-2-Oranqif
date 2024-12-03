@@ -24,7 +24,7 @@ export default function AddMovieForm({ onAddMovie }) {
       value={title}
       onChange={handleTitle}
       />
-      <button type="submit">Add</button>
+      <button type="submit">Add Movie</button>
     </form>
   )
 };

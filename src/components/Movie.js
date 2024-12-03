@@ -16,7 +16,9 @@ export default function Movie({movie, onToggleWatched, onDeleteMovie}) {
             type="checkbox" 
             onClick={() => onToggleWatched(movie.id)}/>
             <button 
-            onClick={() => onDeleteMovie(movie.id)}>Delete</button>
+            onClick={() => onDeleteMovie(movie.id)}>
+                Delete
+            </button>
         </li>
     );
 };

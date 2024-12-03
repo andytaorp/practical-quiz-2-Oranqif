@@ -20,7 +20,7 @@ export default function AddMovieForm({ onAddMovie }) {
     <form onSubmit={handleSubmit}>
       <input 
       type="text"
-      placeholder="Movie Title"
+      placeholder="Movie Title..."
       value={title}
       onChange={handleTitle}
       />
